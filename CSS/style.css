@@ -1,0 +1,84 @@
+.name{
+    color:green;
+    border: 1px red solid;
+    padding: 10px;
+}
+.name:hover{
+    color: black;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    box-shadow: 5px 5px 5px 5px lightblue;
+    border-radius: 20px;
+}
+p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+p:hover{
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.navigationDiv{
+    background-color: green;
+    
+      
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: space-between;
+    border: 2px solid green;
+    height: 20px;
+    text-align: center;
+    
+}
+.navbar  :hover{
+
+text-align: center;
+}
+.home{
+    
+    text-decoration: none;
+    background-color: green;
+    color: white;  
+    
+}
+a:hover{
+
+   
+    border-radius: 10px;
+    
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableDiv{
+    margin-top: 15px;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tableHead{
+    text-align: center;
+    padding: 10px;
+    background-color: peru;
+    color: white;
+  }
+  td {
+    text-align: center;
+    padding: 10px;
+  }
+  /* for stripped data presentation */
+  .tableRow:nth-child(even){
+    background-color: #f2f2f2
+}
+  /* header css */
+ 
